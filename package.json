@@ -1,0 +1,33 @@
+{
+  "name": "it-inventory-system",
+  "version": "1.0.0",
+  "description": "IT Inventory Management System API",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start": "npm --prefix frontend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "node backend/src/server.js",
+    "dev": "nodemon backend/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/clerk-react": "^5.61.9",
+    "@clerk/express": "^2.1.67",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^4.17.2",
+    "mongoose": "^9.10.0",
+    "morgan": "^1.12.1",
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.6",
+    "nodemon": "^3.1.14",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.17"
+  }
+}

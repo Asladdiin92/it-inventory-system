@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/home/asladin/it-inventory-system/backend/logs/.36e50e4734661d3f22380164e6600b7f53225ff4-audit.json",
+    "files": [
+        {
+            "date": 1789310478699,
+            "name": "/home/asladin/it-inventory-system/backend/logs/error-2026-09-13.log",
+            "hash": "90f9bae07f970a76e1275af133d775dfe3e5e408fba83270b822ffd45cf2e6e6"
+        }
+    ],
+    "hashType": "sha256"
+}
